@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank system 7T</title>
+</head>
+<body>
+<form action="/" method="POST">
+    <fieldset>
+        <legend>Перевод средств на другой счет</legend>
+        <p> <label>Введите номер счета, с которого бы вы хотели перевести деньги:<input type="text" name="card_from", value="{{ card }}" placeholder="Вводите номер без пробелов"></label></p>
+        <p> <label>Введите номер счета, куда бы вы хотели перевести деньги:<input type="text" name="card_to", placeholder="Вводите номер без пробелов"></label></p>
+        <p> <label>Сколько денег вы бы хотели перевести<input type="text" name="money", placeholder="Вводите номер без пробелов"></label></p>
+        <p> <label>Введите коментарий к переводу:<input type="text" name="comment"></label></p>
+        <p> <label>Введите ваш пароль:<input type="password" name="passwd"></label></p>
+    </fieldset>
+    <p> <input type="submit" value="Перевести"></p>
+</form>
+</body>
+</html>
